@@ -1,0 +1,17 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "artifacts:villager_hat",
+            "register_to_create_menu": true,
+            "category": "artifacts_artifacts"
+        },
+        "components": {
+            "minecraft:max_damage": 0,
+            "minecraft:max_stack_size": 1,
+            "netease:customtips": {
+                "value": "卑鄙的外乡人伪装成同类诱骗村民(与村民交易获得双倍物品)\n可装备在 §9帽子§r 饰品插槽中"
+            }
+        }
+    }
+}
