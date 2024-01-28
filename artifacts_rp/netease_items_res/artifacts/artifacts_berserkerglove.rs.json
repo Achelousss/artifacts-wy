@@ -1,0 +1,12 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "artifacts:berserkerglove",
+            "category": "artifacts_artifacts"
+        },
+        "components": {
+            "minecraft:icon": "artifacts:berserkerglove"
+        }
+    }
+}

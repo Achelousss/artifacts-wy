@@ -1,0 +1,403 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.player.whoopee_cushion": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.whoopee_cushion",
+      "textures": ["Texture.whoopee_cushion"]
+    },
+    "controller.render.player.blindfold": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.blindfold",
+      "textures": ["Texture.blindfold"]
+    },
+    "controller.render.player.snorkel": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.snorkel",
+      "textures": ["Texture.snorkel"]
+    },
+    "controller.render.player.night_vision_goggles": {
+      "materials": [
+        {
+          "*": "material.night_vision_goggles"
+        }
+      ],
+      "geometry": "Geometry.night_vision_goggles",
+      "textures": ["Texture.night_vision_goggles"]
+    },
+    "controller.render.player.villager_hat": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.villager_hat",
+      "textures": ["Texture.villager_hat"]
+    },
+    "controller.render.player.superstitious_hat": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.superstitious_hat",
+      "textures": ["Texture.superstitious_hat"]
+    },
+    "controller.render.player.chefhat": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.chefhat",
+      "textures": ["Texture.chefhat"]
+    },
+    "controller.render.player.quiver": {
+      "arrays": {
+        "textures": {
+          "Array.texture": [
+            "Texture.leather_quiver",
+            "Texture.iron_quiver",
+            "Texture.gold_quiver",
+            "Texture.diamond_quiver",
+            "Texture.netherite_quiver"
+          ]
+        }
+      },
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.quiver",
+      "textures": ["Array.texture[query.mod.quiver-1]"]
+    },
+    "controller.render.player.bottled_cloud": {
+      "materials": [
+        {
+          "*": "material.bottled_cloud"
+        }
+      ],
+      "geometry": "Geometry.bottled_cloud",
+      "textures": ["Texture.bottled_cloud"]
+    },
+    "controller.render.player.obsidian_skull": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.obsidian_skull",
+      "textures": ["Texture.obsidian_skull"]
+    },
+    "controller.render.player.antidote_vessel": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.antidote_vessel",
+      "textures": ["Texture.antidote_vessel"]
+    },
+    "controller.render.player.universal_attractor": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.universal_attractor",
+      "textures": ["Texture.universal_attractor"]
+    },
+    "controller.render.player.crystal_heart": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.crystal_heart",
+      "textures": ["Texture.crystal_heart"]
+    },
+    "controller.render.player.helium_flamingo": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.helium_flamingo",
+      "textures": ["Texture.helium_flamingo"]
+    },
+    "controller.render.player.aqua_dashers": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.aqua_dashers",
+      "textures": ["Texture.aqua_dashers"]
+    },
+    "controller.render.player.bunny_hoppers": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.bunny_hoppers",
+      "textures": ["Texture.bunny_hoppers"]
+    },
+    "controller.render.player.kitty_slippers": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.kitty_slippers",
+      "textures": ["Texture.kitty_slippers"]
+    },
+    "controller.render.player.running_shoes": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.running_shoes",
+      "textures": ["Texture.running_shoes"]
+    },
+    "controller.render.player.steadfast_spikes": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.steadfast_spikes",
+      "textures": ["Texture.steadfast_spikes"]
+    },
+    "controller.render.player.flipper": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.flipper",
+      "textures": ["Texture.flipper"]
+    },
+    "controller.render.player.lucky_scarf": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.scarf",
+      "textures": ["Texture.lucky_scarf"]
+    },
+    "controller.render.player.scarf_of_invisibility": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.scarf",
+      "textures": ["Texture.scarf_of_invisibility"]
+    },
+    "controller.render.player.cross_necklace": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.cross_necklace",
+      "textures": ["Texture.cross_necklace"]
+    },
+    "controller.render.player.panic_necklace": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.panic_necklace",
+      "textures": ["Texture.panic_necklace"]
+    },
+    "controller.render.player.shock_pendant": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.pendant",
+      "textures": ["Texture.shock_pendant"]
+    },
+    "controller.render.player.flame_pendant": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.pendant",
+      "textures": ["Texture.flame_pendant"]
+    },
+    "controller.render.player.thorn_pendant": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.pendant",
+      "textures": ["Texture.thorn_pendant"]
+    },
+    "controller.render.player.digging_claws_left": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.left_claws",
+      "textures": ["Texture.digging_claws"]
+    },
+    "controller.render.player.digging_claws_right": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.right_claws",
+      "textures": ["Texture.digging_claws"]
+    },
+    "controller.render.player.feral_claws_left": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.left_claws",
+      "textures": ["Texture.feral_claws"]
+    },
+    "controller.render.player.feral_claws_right": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.right_claws",
+      "textures": ["Texture.feral_claws"]
+    },
+    "controller.render.player.power_glove_left": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.left_glove",
+      "textures": ["Texture.power_glove"]
+    },
+    "controller.render.player.power_glove_right": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.right_glove",
+      "textures": ["Texture.power_glove"]
+    },
+    "controller.render.player.fire_gauntlet_left": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.left_glove",
+      "textures": ["Texture.fire_gauntlet"]
+    },
+    "controller.render.player.fire_gauntlet_right": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.right_glove",
+      "textures": ["Texture.fire_gauntlet"]
+    },
+    "controller.render.player.fire_gauntlet_glow_left": {
+      "materials": [
+        {
+          "*": "material.fire_gauntlet_glow"
+        }
+      ],
+      "geometry": "Geometry.left_glove",
+      "textures": ["Texture.fire_gauntlet_glow"]
+    },
+    "controller.render.player.fire_gauntlet_glow_right": {
+      "materials": [
+        {
+          "*": "material.fire_gauntlet_glow"
+        }
+      ],
+      "geometry": "Geometry.right_glove",
+      "textures": ["Texture.fire_gauntlet_glow"]
+    },
+    "controller.render.player.pocket_piston_left": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.left_glove",
+      "textures": ["Texture.pocket_piston"]
+    },
+    "controller.render.player.pocket_piston_right": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.right_glove",
+      "textures": ["Texture.pocket_piston"]
+    },
+    "controller.render.player.vampiric_glove_left": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.left_glove",
+      "textures": ["Texture.vampiric_glove"]
+    },
+    "controller.render.player.vampiric_glove_right": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.right_glove",
+      "textures": ["Texture.vampiric_glove"]
+    },
+    "controller.render.player.golden_hook_left": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.left_golden_hook",
+      "textures": ["Texture.golden_hook"]
+    },
+    "controller.render.player.golden_hook_right": {
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "geometry": "Geometry.right_golden_hook",
+      "textures": ["Texture.golden_hook"]
+    }
+  }
+}

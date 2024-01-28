@@ -1,0 +1,74 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.chefhat",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "waist",
+					"parent": "root",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "hat",
+					"parent": "head",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "chefhat",
+					"parent": "hat",
+					"pivot": [4.5, 29, -4.5],
+					"cubes": [
+						{
+							"origin": [-4, 29, -4],
+							"size": [8, 3, 8],
+							"inflate": 0.1,
+							"uv": {
+								"north": {"uv": [31, 27], "uv_size": [15, 3]},
+								"east": {"uv": [0, 41], "uv_size": [15, 3]},
+								"south": {"uv": [42, 30], "uv_size": [15, 3]},
+								"west": {"uv": [42, 33], "uv_size": [15, 3]},
+								"up": {"uv": [16, 0], "uv_size": [15, 15]},
+								"down": {"uv": [16, 30], "uv_size": [15, -15]}
+							}
+						},
+						{
+							"origin": [-4.5, 32, -4.5],
+							"size": [9, 9, 9],
+							"inflate": 0.1,
+							"uv": {
+								"north": {"uv": [31, 0], "uv_size": [16, 9]},
+								"east": {"uv": [31, 9], "uv_size": [16, 9]},
+								"south": {"uv": [31, 18], "uv_size": [16, 9]},
+								"west": {"uv": [0, 32], "uv_size": [16, 9]},
+								"up": {"uv": [0, 0], "uv_size": [16, 16]},
+								"down": {"uv": [0, 32], "uv_size": [16, -16]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

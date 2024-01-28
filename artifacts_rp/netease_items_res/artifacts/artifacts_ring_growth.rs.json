@@ -1,0 +1,16 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "artifacts:ring_growth",
+            "category": "artifacts_artifacts"
+        },
+        "components": {
+            "minecraft:icon": "artifacts:ring_growth",
+            "netease:frame_anim_in_scene": {
+                "ticks_per_frame": 2,
+                "texture_path": "textures/artifacts/items/artifacts/ring_growth.png"
+            }
+        }
+    }
+}
